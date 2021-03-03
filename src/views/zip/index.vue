@@ -74,7 +74,7 @@ import { Component, Vue } from 'vue-property-decorator'
 import { getArticles } from '@/api/articles'
 import { IArticleData } from '@/api/types'
 import { formatJson } from '@/utils'
-import { exportTxt2Zip } from '@/utils/zip'
+import { exportTxt2Zip } from '@/utils/zip.ts'
 
 @Component({
   name: 'ExportZip'
